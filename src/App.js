@@ -56,12 +56,12 @@ function calculateWinner(arr) {
               player={player}
               setPlayer={setPlayer}
               squareValue={val}
-              key={index}
+              index={index}
             />
           )
       })}
     </div>
-    <button onClick={handleClick}></button>
+    <button onClick={handleClick}>Reset</button>
     </div>
   );
 }
